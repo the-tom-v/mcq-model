@@ -1,0 +1,20 @@
+{
+    "courses": [
+      { "id": 1, "name": "Mathematics" },
+      { "id": 2, "name": "Science" }
+    ],
+    "testSeries": [
+      { "id": 1, "courseId": 1, "name": "Algebra Test", "totalQuestions": 5, "duration": "30 minutes" },
+      { "id": 2, "courseId": 1, "name": "Geometry Test", "totalQuestions": 10, "duration": "1 hour" },
+      { "id": 3, "courseId": 2, "name": "Physics Test", "totalQuestions": 15, "duration": "1.5 hours" }
+    ],
+    "questions": [
+      { "id": 1, "testSeriesId": 1, "question": "What is the value of x in the equation 2x + 3 = 9?", "options": ["2", "3", "4", "5"], "correctAnswer": "3" },
+      { "id": 2, "testSeriesId": 1, "question": "Solve the equation: 3(x - 5) = 12", "options": ["5", "6", "7", "8"], "correctAnswer": "7" },
+      { "id": 3, "testSeriesId": 2, "question": "What is the area of a circle with radius 5 units?", "options": ["10π", "15π", "20π", "25π"], "correctAnswer": "25π" },
+      { "id": 4, "testSeriesId": 2, "question": "Find the perimeter of a rectangle with length 8 units and width 6 units.", "options": ["30", "32", "36", "40"], "correctAnswer": "28" },
+      { "id": 5, "testSeriesId": 3, "question": "What is the SI unit of force?", "options": ["Newton", "Joule", "Watt", "Volt"], "correctAnswer": "Newton" },
+      { "id": 6, "testSeriesId": 3, "question": "Which of the following is NOT a vector quantity?", "options": ["Velocity", "Acceleration", "Mass", "Force"], "correctAnswer": "Mass" }
+    ]
+  }
+  
