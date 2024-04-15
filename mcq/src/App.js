@@ -79,6 +79,7 @@ const App = () => {
   };
 
   return (
+    <center>
     <div>
       <h1>MCQ Form</h1>
       <div>
@@ -115,8 +116,9 @@ const App = () => {
           <button type="submit">Submit</button>
         </form>
       </div>
-    </div>
+   </div>
+   </center>
   );
-};
+  };
 
 export default App;

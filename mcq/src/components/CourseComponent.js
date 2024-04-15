@@ -1,4 +1,6 @@
+// CourseComponent.js
 import React from 'react';
+import './css/CourseComponent.css'; // Import external CSS file
 
 const CourseComponent = ({ course, setSelectedCourse }) => {
   const handleCourseSelect = () => {
@@ -6,7 +8,7 @@ const CourseComponent = ({ course, setSelectedCourse }) => {
   };
 
   return (
-    <div onClick={handleCourseSelect} style={{ cursor: 'pointer' }}>
+    <div onClick={handleCourseSelect} className="course-container"> {/* Add class name */}
       <h3>{course.name}</h3>
     </div>
   );

@@ -1,14 +1,16 @@
+// QuestionComponent.js
 import React from 'react';
+import './css/QuestionComponet.css'; // Import external CSS file
 
 const QuestionComponent = ({ question, selectedAnswer, handleOptionSelect }) => {
   const { id, question: questionText, options } = question;
 
   return (
-    <div>
+    <div className="question-container"> {/* Add class name */}
       <p>{questionText}</p>
       <div>
         {options.map((option) => (
-          <label key={option}>
+          <label key={option} className="option-container"> {/* Add class name */}
             <input
               type="radio"
               value={option}
