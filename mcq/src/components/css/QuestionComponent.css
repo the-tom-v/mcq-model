@@ -1,0 +1,30 @@
+.question-container {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #28a745; /* Green border */
+    border-radius: 5px;
+    background-color: #f8f9fa; /* Light grey background */
+  }
+  
+  .question-container p {
+    margin: 0;
+    color: #28a745; /* Green text color */
+  }
+  
+  .option-container {
+    margin-bottom: 5px;
+  }
+  
+  .option-container label {
+    margin-left: 10px;
+    color: #6c757d; /* Dark grey text color */
+    cursor: pointer;
+  }
+  
+  .option-container input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .option-container input[type="radio"]:checked + label {
+    font-weight: bold;
+  }

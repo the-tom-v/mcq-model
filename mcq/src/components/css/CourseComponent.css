@@ -1,0 +1,21 @@
+.course-container {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 5px;
+    background-color: #f8f9fa; /* Light grey background */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+  
+  .course-container:hover {
+    background-color: #e2e6ea; /* Darker grey background on hover */
+  }
+  
+  .course-container h3 {
+    margin: 0;
+    color: #007bff; /* Blue text color */
+  }
+
+
+
